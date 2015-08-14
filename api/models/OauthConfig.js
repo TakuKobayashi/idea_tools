@@ -14,6 +14,7 @@ module.exports = {
     token: {type: 'string'},
     tokenSecret: {type: 'string'},
     expiredAt: {type: 'datetime'},
+    userName: {type: 'datetime'},
     imagePath: {type: 'string'},
   }
 };

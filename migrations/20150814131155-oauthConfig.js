@@ -10,6 +10,7 @@ exports.up = function(db, callback) {
     token: {type: 'string', notNull: true},
     tokenSecret: 'string',
     expiredAt: 'datetime',
+    userName: 'string',
     imagePath: 'string',
     updatedAt: 'datetime',
     createdAt: 'datetime'

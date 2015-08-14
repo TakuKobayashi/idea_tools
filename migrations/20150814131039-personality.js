@@ -12,8 +12,8 @@ exports.up = function(db, callback) {
     createdAt: 'datetime'
   }, function(){
     db.addIndex('personality', 'personality_user_id_index', 'userId', function(){
-      db.addIndex('personality', 'personality_email_address_index', 'emailAddress', true, callback)
-    })
+      db.addIndex('personality', 'personality_email_address_index', 'emailAddress', true, callback);
+    });
   });
 };
 
