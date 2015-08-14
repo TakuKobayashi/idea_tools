@@ -25,7 +25,12 @@
     "sails-hook-autoreload":"*",
     "sails-db-migrate": "*",
     "sails-mysql": "*",
-    "node-uuid": "*"
+    "node-uuid": "*",
+    "passport": "*",
+    "passport-facebook": "*",
+    "passport-twitter": "*",
+    "passport-google-oauth": "*",
+    "passport-github2": "*"
   },
   "scripts": {
     "debug": "node debug app.js",
